@@ -5,11 +5,11 @@ export default function TopNav({ activeView, onSwitch }) {
     <div className="bg-white border-b border-gray-100 px-5 py-2.5 flex items-center justify-between shrink-0 shadow-sm z-10">
       {/* Brand */}
       <div className="flex items-center gap-2">
-        <div className="w-7 h-7 bg-[#FF6B35] rounded-lg flex items-center justify-center text-white text-sm font-bold shadow-sm">
-          R
+        <div>
+          <img src="/favicon.png" className="w-7 h-7 rounded-lg object-cover" alt="logo" />
         </div>
         <div>
-          <div className="text-sm font-bold text-gray-800 leading-tight">RetailStore</div>
+          <div className="text-sm font-bold text-gray-800 leading-tight">CRESCO</div>
           <div className="text-[10px] text-gray-400 leading-tight">Sales Dashboard</div>
         </div>
       </div>
